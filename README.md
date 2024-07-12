@@ -18,7 +18,7 @@
                                     
 
 ### Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Mahesh953-hub/ID-PASS2CW/blob/main/BlackOuT.ipyn)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Mahesh953-hub/ID-PASS2CW/blob/main/BlackOuT.ipynb)
 
 ## Deploy To Heroku
 
