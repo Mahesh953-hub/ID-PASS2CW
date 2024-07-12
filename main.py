@@ -86,14 +86,14 @@ async def account_login(bot: Client, m: Message):
     html = scraper.post(url,data,headers).content
     output0 = json.loads(html)
     token = output0["data"]["token"]
-    #await m.reply_text(soup)
-    #token=str(input())
+    await m.reply_text(soup)
+    token=str(input())
     await editable.edit("**login Successful**")
     #await editable.edit(f"You have these Batches :-\n{raw_text}"
     scraper = cloudscraper.create_scraper()
     html1 = scraper.get("https://elearn.crwilladmin.com/api/v1/comp/my-batch?&token=" + token).content
     output = json.loads(html1)
-    #print(jsonResponse)
+    print(jsonResponse)
     topicid = output["data"]["batchData"]
     print(topicid)
     
